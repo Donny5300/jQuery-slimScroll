@@ -1,8 +1,10 @@
 {
   "name": "jquery-slimscroll",
-  "main": "jquery.slimscroll.js",
+  "main": [
+    "jquery.slimscroll.js",
+    "jquery.slimscroll.min.js"
+  ],
   "version": "1.4.0",
-  "title": "jQuery slimScroll scrollbar",
   "description": "slimScroll is a small jQuery plugin that transforms any div into a scrollable area. slimScroll doesn't occupy any visual space as it only appears on a user initiated mouse-over.",
   "keywords": [
     "scrollbar",
@@ -16,22 +18,19 @@
     "ecosystem:jquery"
   ],
   "homepage": "http://rocha.la/jQuery-slimScroll/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rochal/jQuery-slimScroll.git"
-  },
   "authors": [
     {
       "name": "Piotr Rochala",
-      "url": "http://rocha.la/"
+      "homepage": "http://rocha.la/"
     },
     {
       "name": "Donny5300",
-      "url": "http://www.google.nl/"
+      "homepage": "http://www.google.nl/"
     }
   ],
-  "dependencies": {
-    "jquery": ">= 1.7"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Donny5300/jQuery-slimScroll.git"
   },
   "licenses": [
     {
@@ -42,5 +41,13 @@
       "type": "GPL",
       "url": "http://www.opensource.org/licenses/gpl-license.php"
     }
+  ],
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ]
 }
